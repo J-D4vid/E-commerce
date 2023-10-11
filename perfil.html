@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Satisfy&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,1,200" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/profile.css">
+    <link id="theme-select"rel="stylesheet" href="./css/light-theme.css">
+    <script src="./js/profile.js" defer></script>
+    <script src="./js/theme.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div id="logo">
+            <h1 id="title">E-commerce</h1>
+        </div>
+        <div>
+        <button  id="light" class="theme"><i class="material-symbols-outlined">light</i></button>
+        <button id="dark" class="theme"><i class="material-symbols-outlined">nightlight</i></button>
+        <button class="theme"><i class="material-symbols-outlined">menu</i></button>
+        </div>
+    </header>
+
+    <sidenav id="snav">
+        <div id="aba">
+            <div id="perfil">
+                <img id="imgu" src="https://cdn-icons-png.flaticon.com/512/5987/5987462.png" alt="">
+            <h3 id="user">Name</h3>
+            </div>
+           <button class="theme"> <i class="material-symbols-outlined">close</i></button>
+        </div>
+        <ul id="options">
+            <li class="op"><a href="perfil.html">Perfil</a></li>
+            <li class="op"><a href="">Home</a></li>
+            <li class="op"><a href="">Configurações</a></li>
+        </ul>
+    </sidenav>
+
+    <section id="body">
+        <div id="labels">
+            <h1 class="labels prof"><a class="perf"href="">Perfil</a> </h1>
+            <h1 class="labels carrinho"><a class="car"href=""><i class="material-symbols-outlined">store</i>&nbsp;Carrinho</a></h1>
+        </div>
+        <div id="profile">
+            <div class="user">
+                <div class="profileuser">
+                    <img class="userimg"src="" alt="">
+                    <h2 class="name">Username</h2>
+                </div>
+                <ul id="dados">
+                    <li class="dados">Endereço:</li>
+                    <li class="dados">E-mail:</li>
+                    <li class="dados">contato:</li>
+                    <button class="theme config"><i class="material-symbols-outlined">settings</i></button>
+                </ul>
+            </div>
+            <div id="config">
+                <ul id="configdados">
+                    <li class="configdados"><a href="">alterar nome ></a></li>
+                    <li class="configdados"><a href="">alterar Email ></a></li>
+                    <li class="configdados"><a href="">alterar contato ></a></li>
+                    <li class="configdados"><a href="">alterar Endereço ></a></li>
+                    <li class="configdados"><a href="">alterar senha ></a></li>
+                </ul>
+            </div>
+           
+        </div>
+        <section id="carrinho">
+            <div id="car-compras">
+                <ul id="c-compras">
+                    <li class="c-compras"><div id="content-c-compras"><img class="prod-image"src="" alt=""> <h4 class="prod-name">product name</h4></div> <a  class="delete"href=""><i class="material-symbols-outlined size-48">delete</i></a></li>
+                    <li class="c-compras"><div id="content-c-compras"><img class="prod-image"src="" alt=""> <h4 class="prod-name">product name</h4></div> <a  class="delete"href=""><i class="material-symbols-outlined size-48">delete</i></a></li>
+                    <li class="c-compras"><div id="content-c-compras"><img class="prod-image"src="" alt=""> <h4 class="prod-name">product name</h4></div> <a  class="delete"href=""><i class="material-symbols-outlined size-48">delete</i></a></li>
+                    <li class="c-compras"><div id="content-c-compras"><img class="prod-image"src="" alt=""> <h4 class="prod-name">product name</h4></div> <a  class="delete"href=""><i class="material-symbols-outlined size-48">delete</i></a></li>
+                    <li class="c-compras"><div id="content-c-compras"><img class="prod-image"src="" alt=""> <h4 class="prod-name">product name</h4></div> <a  class="delete"href=""><i class="material-symbols-outlined size-48">delete</i></a></li>
+                    
+                    
+                </ul>
+            </div>
+            <li ><a class="h-compras" href="">Historico de compras ></a> </li>
+            <div id="histo-compras">
+                <div id="content">CONTENT</div>
+            </div>
+        </section>
+    </section>
+
+    
+</body>
+</html>
